@@ -27,7 +27,7 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install yfinance==0.2.40 pandas==2.2.0 pandas-ta==0.4.71b0 pytz==2025.2
+        run: pip install yfinance pandas pandas-ta pytz
 
       - name: Run screener
         run: python screener/screen.py
