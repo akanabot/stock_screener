@@ -28,9 +28,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install yfinance==0.2.40 pandas==2.2.0 numpy==1.26.4
-          pip install https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
+          pip install -r screener/requirements.txt
+          pip install pandas-ta==0.3.14b0 || pip install pandas-ta --pre || pip install ta
 
       - name: Run screener
         run: python screener/screen.py
