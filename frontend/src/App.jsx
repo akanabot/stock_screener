@@ -71,13 +71,13 @@ function App() {
   }, [currentDayData, filter, sort]);
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pb-12">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-8">
-        
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4">
+
+        <div className="flex flex-col justify-center items-center mb-8 gap-4 text-center min-h-[200px]">
           <div>
-            <h1 className="text-2xl font-extrabold text-gray-900 tracking-tight">IHSG Overnight Screener</h1>
-            <p className="text-sm text-gray-500 mt-1">Strategi: Beli Sore | Jual Pagi</p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white tracking-tight" style={{fontFamily: 'Verdana, sans-serif'}}>IHSG Overnight Screener</h1>
+            <p className="text-sm text-gray-300 mt-2" style={{fontFamily: 'Helvetica, sans-serif'}}>Strategi: Beli Sore | Jual Pagi</p>
           </div>
           <StatusBar metadata={metadata} />
         </div>

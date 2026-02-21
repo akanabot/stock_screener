@@ -14,7 +14,7 @@ export default function StockRow({ data }) {
   const isWin = data.outcome === "WIN";
 
   return (
-    <tr className="border-b hover:bg-gray-50 transition-colors">
+    <tr className="border-b hover:bg-blue-50 transition-colors" style={{fontFamily: 'Helvetica, sans-serif'}}>
       <td className="p-3 font-bold uppercase text-gray-900">{data.ticker_display}</td>
       <td className="p-3 text-gray-800">{formatRp(data.price_close)}</td>
       <td className={`p-3 font-medium ${pctColor}`}>
@@ -23,13 +23,13 @@ export default function StockRow({ data }) {
       <td className="p-3">
         <ScoreBadge score={data.score} />
       </td>
-      <td className="p-3 hidden md:table-cell text-gray-600">{data.rsi_14}</td>
-      <td className="p-3 hidden md:table-cell text-gray-600">{data.volume_ratio}&times;</td>
-      
+      <td className="p-3 hidden md:table-cell text-gray-700">{data.rsi_14}</td>
+      <td className="p-3 hidden md:table-cell text-gray-700">{data.volume_ratio}&times;</td>
+
       <td className="p-3">
         <div className="flex flex-col items-start gap-1">
-          <span className="font-medium text-sm text-gray-700">{data.signal}</span>
-          
+          <span className="font-medium text-sm text-gray-800">{data.signal}</span>
+
           {/* Label Evaluasi Historis */}
           {hasOutcome && (
             <span className={`text-[10px] px-1.5 py-0.5 rounded font-bold ${

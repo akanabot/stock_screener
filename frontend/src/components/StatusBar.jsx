@@ -17,7 +17,7 @@ export default function StatusBar({ metadata }) {
   };
 
   return (
-    <div className="flex items-center text-xs md:text-sm text-gray-500 bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-sm">
+    <div className="flex items-center text-xs md:text-sm text-gray-600 bg-white px-3 py-1.5 rounded-full border border-gray-200 shadow-md" style={{fontFamily: 'Helvetica, sans-serif'}}>
       <span className={`w-2 h-2 rounded-full ${dotColor} mr-2 animate-pulse`}></span>
       <span>Update terakhir: <span className="font-semibold">{formatTime(metadata.generated_at)} WIB</span> &bull; &#10227; auto-refresh 5m</span>
     </div>

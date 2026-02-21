@@ -11,7 +11,7 @@ export default function ScoreBadge({ score }) {
   }
 
   return (
-    <span className={`px-2.5 py-1 rounded text-sm font-bold ${colorClass}`}>
+    <span className={`px-2.5 py-1 rounded text-sm font-bold ${colorClass}`} style={{fontFamily: 'Helvetica, sans-serif'}}>
       {score}
     </span>
   );

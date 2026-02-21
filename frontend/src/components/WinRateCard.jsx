@@ -22,33 +22,33 @@ export default function WinRateCard({ dayData }) {
     winRate >= 40 ? 'text-yellow-600' : 'text-red-600';
 
   return (
-    <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 mb-4 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200 mb-6 flex flex-col md:flex-row items-center justify-between gap-4" style={{fontFamily: 'Helvetica, sans-serif'}}>
       <div className="text-center md:text-left">
-        <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wider">
+        <h3 className="text-sm font-bold text-gray-600 uppercase tracking-wider">
           Performa Sinyal ({dayData.date})
         </h3>
-        <p className="text-xs text-gray-400 mt-1">
+        <p className="text-xs text-gray-500 mt-1">
           Target: Hit profit minimal 1% pagi harinya
         </p>
       </div>
-      
-      <div className="flex gap-8 items-center bg-gray-50 px-6 py-3 rounded-lg border border-gray-100">
+
+      <div className="flex gap-8 items-center bg-gradient-to-r from-slate-50 to-gray-50 px-6 py-3 rounded-lg border border-gray-100">
         <div className="text-center">
-          <p className="text-[11px] text-gray-500 font-bold uppercase mb-1">Win Rate</p>
+          <p className="text-[11px] text-gray-600 font-bold uppercase mb-1">Win Rate</p>
           <p className={`text-3xl font-black ${rateColor}`}>{winRate}%</p>
         </div>
-        
-        <div className="w-px h-10 bg-gray-200"></div> {/* Garis pemisah */}
-        
+
+        <div className="w-px h-10 bg-gray-300"></div>
+
         <div className="text-center">
-          <p className="text-[11px] text-gray-500 font-bold uppercase mb-1">WIN ✅</p>
+          <p className="text-[11px] text-gray-600 font-bold uppercase mb-1">WIN ✅</p>
           <p className="text-2xl font-bold text-green-700">{wins}</p>
         </div>
-        
-        <div className="w-px h-10 bg-gray-200"></div> {/* Garis pemisah */}
-        
+
+        <div className="w-px h-10 bg-gray-300"></div>
+
         <div className="text-center">
-          <p className="text-[11px] text-gray-500 font-bold uppercase mb-1">LOSS ❌</p>
+          <p className="text-[11px] text-gray-600 font-bold uppercase mb-1">LOSS ❌</p>
           <p className="text-2xl font-bold text-red-700">{losses}</p>
         </div>
       </div>

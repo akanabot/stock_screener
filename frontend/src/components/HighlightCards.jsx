@@ -29,24 +29,24 @@ export default function HighlightCards({ dayData }) {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-      
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6" style={{fontFamily: 'Helvetica, sans-serif'}}>
+
       {/* CARD 1: TOP PICK TRADING PLAN */}
-      <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
+      <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200 flex flex-col justify-between">
         <div>
           <div className="flex justify-between items-start mb-2">
-            <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider">Top Pick Hari Ini</h3>
+            <h3 className="text-xs font-bold text-gray-500 uppercase tracking-wider">Top Pick Hari Ini</h3>
             <span className="bg-indigo-100 text-indigo-800 text-[10px] font-bold px-2 py-0.5 rounded">SKOR: {topPick.score}</span>
           </div>
           <div className="flex items-end gap-3 mb-4">
             <h2 className="text-3xl font-black text-gray-900 uppercase">{topPick.ticker_display}</h2>
-            <p className="text-sm font-medium text-gray-500 mb-1">{topPick.signal}</p>
+            <p className="text-sm font-medium text-gray-600 mb-1">{topPick.signal}</p>
           </div>
         </div>
-        
-        <div className="grid grid-cols-3 gap-2 bg-gray-50 p-3 rounded border border-gray-100">
+
+        <div className="grid grid-cols-3 gap-2 bg-gradient-to-r from-slate-50 to-gray-50 p-3 rounded border border-gray-100">
           <div>
-            <p className="text-[10px] text-gray-500 font-bold uppercase">Beli (Close)</p>
+            <p className="text-[10px] text-gray-600 font-bold uppercase">Beli (Close)</p>
             <p className="text-sm font-bold text-gray-800">{formatRp(buyPrice)}</p>
           </div>
           <div>
@@ -61,7 +61,7 @@ export default function HighlightCards({ dayData }) {
       </div>
 
       {/* CARD 2: MARKET SENTIMENT */}
-      <div className={`p-5 rounded-lg shadow-sm border flex flex-col justify-between ${sentimentColor}`}>
+      <div className={`p-5 rounded-lg shadow-md border flex flex-col justify-between ${sentimentColor}`}>
         <div>
           <div className="flex justify-between items-start mb-2">
             <h3 className="text-xs font-bold uppercase tracking-wider opacity-80">Market Sentiment</h3>
