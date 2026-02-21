@@ -24,10 +24,10 @@ export default function WinRateCard({ dayData }) {
   return (
     <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200 mb-6 flex flex-col md:flex-row items-center justify-between gap-4" style={{fontFamily: 'Helvetica, sans-serif'}}>
       <div className="text-center md:text-left">
-        <h3 className="text-sm font-bold text-gray-600 uppercase tracking-wider">
+        <h3 className="text-sm font-bold text-black uppercase tracking-wider">
           Performa Sinyal ({dayData.date})
         </h3>
-        <p className="text-xs text-gray-500 mt-1">
+        <p className="text-xs text-bold mt-1">
           Target: Hit profit minimal 1% pagi harinya
         </p>
       </div>
@@ -41,14 +41,14 @@ export default function WinRateCard({ dayData }) {
         <div className="w-px h-10 bg-gray-300"></div>
 
         <div className="text-center">
-          <p className="text-[11px] text-gray-600 font-bold uppercase mb-1">WIN ✅</p>
-          <p className="text-2xl font-bold text-green-700">{wins}</p>
+          <p className="text-[11px] text-green-600 font-bold uppercase mb-1">WIN</p>
+          <p className="text-2xl font-bold text-green-600">{wins}</p>
         </div>
 
         <div className="w-px h-10 bg-gray-300"></div>
 
         <div className="text-center">
-          <p className="text-[11px] text-gray-600 font-bold uppercase mb-1">LOSS ❌</p>
+          <p className="text-[11px] text-red-700 font-bold uppercase mb-1">LOSS</p>
           <p className="text-2xl font-bold text-red-700">{losses}</p>
         </div>
       </div>
