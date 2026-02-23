@@ -2,17 +2,19 @@ name: Run IHSG Screener
 
 on:
   schedule:
-    - cron: '30 7 * * 1-5'   # 14:30 WIB (Senin–Jumat)
-    - cron: '0 8 * * 1-5'    # 15:00 WIB
+    # Waktu UTC (WIB - 7 jam)
+    - cron: '30 7 * * 1-5'   # 14:30 WIB
+    - cron: '45 7 * * 1-5'   # 14:45 WIB
+    - cron: '00 8 * * 1-5'   # 15:00 WIB
+    - cron: '15 8 * * 1-5'   # 15:15 WIB
     - cron: '30 8 * * 1-5'   # 15:30 WIB
-  workflow_dispatch:           # trigger manual via GitHub UI
+    - cron: '45 8 * * 1-5'   # 15:45 WIB
+    - cron: '00 9 * * 1-5'
+  workflow_dispatch:
 
 jobs:
   screen:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    
-    # Wajib ditambahkan agar bot diizinkan menyimpan file result.json ke repo Anda
     permissions:
       contents: write 
 
@@ -20,22 +22,21 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.12
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: pip install yfinance pandas pandas-ta pytz
 
-      - name: Run screener
+      - name: Run Screener
         run: python screener/screen.py
 
-      - name: Commit result
+      - name: Commit and Push
         run: |
-          git config user.name "screener-bot"
-          git config user.email "bot@ihsg-screener.local"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/result.json
-          git diff --staged --quiet || git commit -m "chore: update screener result $(date +'%Y-%m-%d %H:%M WIB')"
-          git push
+          # Hanya push jika ada perubahan data
+          git diff --staged --quiet || (git commit -m "update data $(date +'%H:%M') WIB" && git push)
