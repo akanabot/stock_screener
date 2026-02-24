@@ -4,10 +4,10 @@ export const CONFIG = {
   // Ganti dengan raw URL dari repository Anda!
   // SEBELUMNYA
 
-  DATA_URL: "/mock-data.json",
+  // DATA_URL: "/mock-data.json",
 
-    // DATA_URL: import.meta.env.VITE_DATA_URL || 
-    // "https://raw.githubusercontent.com/akanabot/projekdarderdor-screener/main/data/result.json",
+    DATA_URL: import.meta.env.VITE_DATA_URL || 
+    "https://raw.githubusercontent.com/akanabot/projekdarderdor-screener/main/data/result.json",
   
   REFRESH_INTERVAL: 5 * 60 * 1000,   // 5 menit
 
