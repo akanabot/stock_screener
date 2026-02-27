@@ -110,7 +110,7 @@
     {
       "date": "2026-02-27",
       "metadata": {
-        "generated_at": "2026-02-27T16:01:19+07:00",
+        "generated_at": "2026-02-27T16:05:37+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -118,11 +118,11 @@
         {
           "ticker": "ACES.JK",
           "ticker_display": "ACES",
-          "price_close": 398,
-          "price_change_pct": 0.51,
+          "price_close": 400,
+          "price_change_pct": 1.01,
           "volume_ratio": 2.2,
-          "rsi_14": 42.5,
-          "score": 51,
+          "rsi_14": 45.5,
+          "score": 67,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
