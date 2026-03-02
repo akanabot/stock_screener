@@ -142,7 +142,7 @@
     {
       "date": "2026-03-02",
       "metadata": {
-        "generated_at": "2026-03-02T15:08:15+07:00",
+        "generated_at": "2026-03-02T15:44:53+07:00",
         "status": "partial",
         "total_passed": 5
       },
@@ -150,11 +150,33 @@
         {
           "ticker": "LSIP.JK",
           "ticker_display": "LSIP",
-          "price_close": 1240,
-          "price_change_pct": 5.53,
-          "volume_ratio": 3.8,
-          "rsi_14": 65.6,
+          "price_close": 1230,
+          "price_change_pct": 4.68,
+          "volume_ratio": 4.0,
+          "rsi_14": 63.8,
           "score": 68,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ELSA.JK",
+          "ticker_display": "ELSA",
+          "price_close": 970,
+          "price_change_pct": 14.12,
+          "volume_ratio": 4.6,
+          "rsi_14": 80.0,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "MEDC.JK",
+          "ticker_display": "MEDC",
+          "price_close": 1910,
+          "price_change_pct": 10.72,
+          "volume_ratio": 4.3,
+          "rsi_14": 74.5,
+          "score": 63,
           "signal": "MODERATE",
           "outcome": "PENDING"
         },
@@ -163,42 +185,20 @@
           "ticker_display": "AKRA",
           "price_close": 1340,
           "price_change_pct": 3.47,
-          "volume_ratio": 2.7,
+          "volume_ratio": 2.9,
           "rsi_14": 57.1,
           "score": 60,
           "signal": "MODERATE",
           "outcome": "PENDING"
         },
         {
-          "ticker": "MEDC.JK",
-          "ticker_display": "MEDC",
-          "price_close": 1835,
-          "price_change_pct": 6.38,
-          "volume_ratio": 3.7,
-          "rsi_14": 71.1,
-          "score": 58,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
-          "ticker": "ELSA.JK",
-          "ticker_display": "ELSA",
-          "price_close": 935,
-          "price_change_pct": 10.0,
-          "volume_ratio": 4.2,
-          "rsi_14": 78.1,
-          "score": 53,
-          "signal": "MODERATE",
-          "outcome": "PENDING"
-        },
-        {
           "ticker": "PTBA.JK",
           "ticker_display": "PTBA",
-          "price_close": 2690,
-          "price_change_pct": 3.46,
-          "volume_ratio": 2.2,
-          "rsi_14": 66.7,
-          "score": 50,
+          "price_close": 2730,
+          "price_change_pct": 5.0,
+          "volume_ratio": 2.6,
+          "rsi_14": 69.6,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
