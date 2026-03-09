@@ -300,7 +300,7 @@
     {
       "date": "2026-03-09",
       "metadata": {
-        "generated_at": "2026-03-09T15:44:25+07:00",
+        "generated_at": "2026-03-09T16:03:42+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -308,10 +308,10 @@
         {
           "ticker": "SCMA.JK",
           "ticker_display": "SCMA",
-          "price_close": 234,
-          "price_change_pct": -3.31,
-          "volume_ratio": 2.1,
-          "rsi_14": 36.3,
+          "price_close": 232,
+          "price_change_pct": -4.13,
+          "volume_ratio": 2.2,
+          "rsi_14": 35.9,
           "score": 51,
           "signal": "MODERATE",
           "outcome": "PENDING"
