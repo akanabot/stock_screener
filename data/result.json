@@ -347,6 +347,15 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-03-12",
+      "metadata": {
+        "generated_at": "2026-03-12T15:02:05+07:00",
+        "status": "partial",
+        "total_passed": 0
+      },
+      "results": []
     }
   ]
 }
