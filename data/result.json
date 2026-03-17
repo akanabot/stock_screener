@@ -397,6 +397,27 @@
           "outcome": "PENDING"
         }
       ]
+    },
+    {
+      "date": "2026-03-17",
+      "metadata": {
+        "generated_at": "2026-03-17T15:07:58+07:00",
+        "status": "partial",
+        "total_passed": 1
+      },
+      "results": [
+        {
+          "ticker": "BBNI.JK",
+          "ticker_display": "BBNI",
+          "price_close": 4360,
+          "price_change_pct": 2.83,
+          "volume_ratio": 1.5,
+          "rsi_14": 49.9,
+          "score": 63,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        }
+      ]
     }
   ]
 }
