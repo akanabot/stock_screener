@@ -698,11 +698,22 @@
     {
       "date": "2026-03-30",
       "metadata": {
-        "generated_at": "2026-03-30T16:13:02+07:00",
+        "generated_at": "2026-03-30T16:48:28+07:00",
         "status": "partial",
-        "total_passed": 1
+        "total_passed": 2
       },
       "results": [
+        {
+          "ticker": "ERAA.JK",
+          "ticker_display": "ERAA",
+          "price_close": 382,
+          "price_change_pct": 2.69,
+          "volume_ratio": 2.0,
+          "rsi_14": 41.5,
+          "score": 56,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
         {
           "ticker": "AKRA.JK",
           "ticker_display": "AKRA",
