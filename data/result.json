@@ -698,7 +698,7 @@
     {
       "date": "2026-03-30",
       "metadata": {
-        "generated_at": "2026-03-30T16:01:10+07:00",
+        "generated_at": "2026-03-30T16:13:02+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -708,7 +708,7 @@
           "ticker_display": "AKRA",
           "price_close": 1425,
           "price_change_pct": 5.17,
-          "volume_ratio": 2.5,
+          "volume_ratio": 2.6,
           "rsi_14": 67.2,
           "score": 55,
           "signal": "MODERATE",
