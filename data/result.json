@@ -762,7 +762,7 @@
     {
       "date": "2026-04-01",
       "metadata": {
-        "generated_at": "2026-04-01T15:48:53+07:00",
+        "generated_at": "2026-04-01T16:05:12+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -770,10 +770,10 @@
         {
           "ticker": "BBYB.JK",
           "ticker_display": "BBYB",
-          "price_close": 306,
-          "price_change_pct": 8.51,
-          "volume_ratio": 1.7,
-          "rsi_14": 46.5,
+          "price_close": 308,
+          "price_change_pct": 9.22,
+          "volume_ratio": 1.8,
+          "rsi_14": 47.2,
           "score": 65,
           "signal": "MODERATE",
           "outcome": "PENDING"
