@@ -762,11 +762,22 @@
     {
       "date": "2026-04-01",
       "metadata": {
-        "generated_at": "2026-04-01T16:05:12+07:00",
+        "generated_at": "2026-04-01T16:22:50+07:00",
         "status": "partial",
-        "total_passed": 1
+        "total_passed": 3
       },
       "results": [
+        {
+          "ticker": "MNCN.JK",
+          "ticker_display": "MNCN",
+          "price_close": 220,
+          "price_change_pct": 6.8,
+          "volume_ratio": 2.1,
+          "rsi_14": 51.8,
+          "score": 87,
+          "signal": "STRONG",
+          "outcome": "PENDING"
+        },
         {
           "ticker": "BBYB.JK",
           "ticker_display": "BBYB",
@@ -775,6 +786,17 @@
           "volume_ratio": 1.8,
           "rsi_14": 47.2,
           "score": 65,
+          "signal": "MODERATE",
+          "outcome": "PENDING"
+        },
+        {
+          "ticker": "ADRO.JK",
+          "ticker_display": "ADRO",
+          "price_close": 2490,
+          "price_change_pct": -3.49,
+          "volume_ratio": 1.4,
+          "rsi_14": 54.9,
+          "score": 51,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
