@@ -868,7 +868,7 @@
     {
       "date": "2026-04-07",
       "metadata": {
-        "generated_at": "2026-04-07T16:02:54+07:00",
+        "generated_at": "2026-04-07T16:20:51+07:00",
         "status": "partial",
         "total_passed": 1
       },
@@ -876,10 +876,10 @@
         {
           "ticker": "BRPT.JK",
           "ticker_display": "BRPT",
-          "price_close": 1430,
-          "price_change_pct": 6.32,
-          "volume_ratio": 1.6,
-          "rsi_14": 42.3,
+          "price_close": 1460,
+          "price_change_pct": 8.55,
+          "volume_ratio": 1.7,
+          "rsi_14": 43.9,
           "score": 59,
           "signal": "MODERATE",
           "outcome": "PENDING"
