@@ -1006,7 +1006,7 @@
     {
       "date": "2026-04-14",
       "metadata": {
-        "generated_at": "2026-04-14T16:00:52+07:00",
+        "generated_at": "2026-04-14T16:06:57+07:00",
         "status": "partial",
         "total_passed": 3
       },
@@ -1038,7 +1038,7 @@
           "ticker_display": "BRPT",
           "price_close": 2430,
           "price_change_pct": 10.96,
-          "volume_ratio": 2.3,
+          "volume_ratio": 2.4,
           "rsi_14": 74.0,
           "score": 55,
           "signal": "MODERATE",
