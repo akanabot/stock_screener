@@ -1219,7 +1219,7 @@
     {
       "date": "2026-04-23",
       "metadata": {
-        "generated_at": "2026-04-23T16:11:57+07:00",
+        "generated_at": "2026-04-23T16:15:14+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -1229,7 +1229,7 @@
           "ticker_display": "ELSA",
           "price_close": 805,
           "price_change_pct": 10.27,
-          "volume_ratio": 3.7,
+          "volume_ratio": 3.8,
           "rsi_14": 68.0,
           "score": 63,
           "signal": "MODERATE",
