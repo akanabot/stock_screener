@@ -3612,7 +3612,7 @@
     {
       "date": "2026-08-14",
       "metadata": {
-        "generated_at": "2026-08-14T16:07:18+07:00",
+        "generated_at": "2026-08-14T16:21:18+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3631,11 +3631,11 @@
         {
           "ticker": "ISAT.JK",
           "ticker_display": "ISAT",
-          "price_close": 2530,
-          "price_change_pct": 2.43,
-          "volume_ratio": 2.2,
-          "rsi_14": 77.3,
-          "score": 50,
+          "price_close": 2540,
+          "price_change_pct": 2.83,
+          "volume_ratio": 2.3,
+          "rsi_14": 77.5,
+          "score": 55,
           "signal": "MODERATE",
           "outcome": "PENDING"
         }
