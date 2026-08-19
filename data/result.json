@@ -3730,7 +3730,7 @@
     {
       "date": "2026-08-19",
       "metadata": {
-        "generated_at": "2026-08-19T16:17:21+07:00",
+        "generated_at": "2026-08-19T16:31:17+07:00",
         "status": "partial",
         "total_passed": 4
       },
@@ -3740,7 +3740,7 @@
           "ticker_display": "SCMA",
           "price_close": 208,
           "price_change_pct": 1.96,
-          "volume_ratio": 1.9,
+          "volume_ratio": 2.0,
           "rsi_14": 54.6,
           "score": 80,
           "signal": "STRONG",
