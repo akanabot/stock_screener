@@ -3870,7 +3870,7 @@
     {
       "date": "2026-08-24",
       "metadata": {
-        "generated_at": "2026-08-24T16:12:28+07:00",
+        "generated_at": "2026-08-24T16:30:13+07:00",
         "status": "partial",
         "total_passed": 2
       },
@@ -3880,7 +3880,7 @@
           "ticker_display": "MTEL",
           "price_close": 450,
           "price_change_pct": 2.27,
-          "volume_ratio": 1.6,
+          "volume_ratio": 1.7,
           "rsi_14": 51.9,
           "score": 65,
           "signal": "MODERATE",
